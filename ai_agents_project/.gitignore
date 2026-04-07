@@ -1,0 +1,38 @@
+# Environnement virtuel
+venv/
+.venv/
+env/
+
+# Variables d'environnement (NE JAMAIS COMMITTER)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# ChromaDB (base vectorielle locale)
+chroma_db/
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+langchain.log

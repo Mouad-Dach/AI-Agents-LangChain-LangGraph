@@ -1,0 +1,40 @@
+# ============================================================
+# Activité Pratique N°3 - AI Agents LangChain & LangGraph
+# ============================================================
+
+# --- Core LangChain ---
+langchain==0.3.25
+langchain-core==0.3.60
+langchain-openai==0.3.16
+langchain-community==0.3.23
+langchain-text-splitters==0.3.8
+
+# --- LangGraph ---
+langgraph==0.4.1
+
+# --- OpenAI ---
+openai==1.77.0
+
+# --- Vector Store ---
+chromadb==0.6.3
+
+# --- Document Loading ---
+pypdf==5.4.0
+unstructured==0.17.2
+
+# --- Tools ---
+duckduckgo-search==8.0.1
+tavily-python==0.5.1
+
+# --- Utilities ---
+python-dotenv==1.1.0
+tiktoken==0.9.0
+pydantic==2.11.4
+typing-extensions==4.13.2
+
+# --- Display (Jupyter / IPython) ---
+ipython==8.34.0
+ipykernel==6.29.5
+
+# --- LangSmith (observabilité) ---
+langsmith==0.3.42
